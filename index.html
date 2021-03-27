@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background: #2d3436;
+            font-family: arial;
+            margin: 0;
+            padding: 0;
+        }
+        .typed{
+            margin: 250px 400px;
+            display: inline-block;
+            text-align: center;
+        }
+        h2{
+            display: inline-block;
+            color: #74b9ff;
+            font-size: 50px;
+        }
+        h2 .anim{
+            color: #FC427B;
+        }
+    </style>
+</head>
+<body>
+    <div class="typed">
+        <h2>I am a <span class="anim"></span></h2>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+    <script>
+        var typed = new Typed('.anim', {
+    strings: [
+    'Muslim',
+    'Bangladeshi',
+    'Web Designer', 
+    'Student',
+    'Web Developer',],
+    typeSpeed:100,
+    backSpeed:100,
+    showCursor:true,
+    loop:true
+    });
+    </script>
+</body>
+</html>
