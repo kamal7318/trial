@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+        *{
+            background: #2d3436;
+            font-family: 'Baloo 2',;
+            margin: 0;
+            padding: 0;
+        }
+        .typed{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+            text-align: center;
+        }
+        p{
+            display: inline-block;
+            color: #7d5fff;
+            font-size: 30px;
+        }
+        p .anim{
+            color: #7efff5;
+        }
+    </style>
+</head>
+<body>
+    <div class="typed">
+        <p><span class="anim"></span></p>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
+    <script>
+        var typed = new Typed('.anim', {
+    strings: [
+    'Kamal Loves Tanjila',
+    'Tanjila Loves Kamal',
+    'May We Be Always Together',
+    'May This Love Go On Forever', 
+    'May We Be In The Jannah Together',],
+    typeSpeed:100,
+    backSpeed:100,
+    showCursor:true,
+    loop:true
+    });
+    </script>
+</body>
+</html>
